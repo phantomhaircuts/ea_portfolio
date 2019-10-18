@@ -1,0 +1,23 @@
+$font-stack: "League";
+$secondary-font: "SrcMono";
+$primary-color: #333;
+
+h1 {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+h2, h3, p {
+  font: 100% $secondary-font;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: .08rem;
+
+}
+
+h2 {
+  font-size: 1.5rem;
+}

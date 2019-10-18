@@ -1,0 +1,40 @@
+
+.terminal {
+  position: relative;
+  display: inline-block;
+  line-height: 24px;
+  min-width: 360px;
+  animation-name: blink;
+  animation-duration: 1s step-end infinite;
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -1px;
+    display: inline-block;
+    vertical-align: top;
+    width: 10px;
+    height: 24px;
+    background-color: #606060;
+    animation: blink 1s infinite;
+
+  }
+}
+
+.typeText {
+  margin-right: 10px;
+}
+
+@keyframes blink {
+    from {
+      opacity: 1.0;
+    }
+
+    50% {
+      opacity: 0.0;
+    }
+
+    to {
+      opacity: 1.0;
+    }
+}
