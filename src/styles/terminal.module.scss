@@ -3,9 +3,9 @@
   position: relative;
   display: inline-block;
   line-height: 24px;
-  min-width: 360px;
   animation-name: blink;
   animation-duration: 1s step-end infinite;
+  text-align: left;
   &:after {
     content: '';
     position: absolute;
