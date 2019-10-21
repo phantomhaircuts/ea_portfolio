@@ -17,3 +17,16 @@
   fill:yellow;
   }
 }
+
+.gText {
+  background:url("https://33.media.tumblr.com/3892aca667bd586e4f5b426703eaf9e9/tumblr_n72aecH7oK1syprfso1_500.gif") no-repeat center;
+  background-size:cover;
+  -webkit-background-clip:text;
+  -ms-background-clip:text;
+  background-clip:text;
+  color:#000;
+  -webkit-text-fill-color:transparent;
+  padding:15px;
+  width:90%;
+  max-width:70em  
+}
