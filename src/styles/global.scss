@@ -2,6 +2,10 @@ $font-stack: "League";
 $secondary-font: "SrcMono";
 $primary-color: #333;
 
+body {
+  background-color:#fafafa;
+}
+
 h1 {
   font: 100% $font-stack;
   color: $primary-color;
