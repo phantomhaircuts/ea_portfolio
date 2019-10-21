@@ -42,7 +42,7 @@ export default class Index extends React.Component{
     return (
       <div className={indexStyle.indexWrapper}>
       <h1>#Erik Anderson.</h1>
-      <div className={terminalStyle.terminal}>Eriks-Portfolio:~ home$
+      <div className={terminalStyle.terminal}>My-Portfolio:~ ea$
       <span className={terminalStyle.typeText}>{this.state.helloWorld}</span>
       </div>
       <p>Creative Coder | Designer</p>
