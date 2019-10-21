@@ -6,7 +6,7 @@ import codepenLogo from "../images/codepen.png"
 import indexStyle from "../styles/index.module.scss"
 import terminalStyle from "../styles/terminal.module.scss"
 
-export default class Index extends React.Component {
+export default class Index extends React.Component{
   constructor(props){
     super(props);
     this.state = {
@@ -15,11 +15,11 @@ export default class Index extends React.Component {
     };
   }
 
-  componentDidMount() {
+  componentDidMount(){
     this.timerID = setInterval(() => this.print(), 1000);
   }
 
-  componentWillUnmount() {
+  componentWillUnmount(){
     clearInterval(this.timerID);
   }
 
@@ -38,7 +38,7 @@ export default class Index extends React.Component {
     }
   }
 
-  render() {
+  render(){
     return (
       <div className={indexStyle.indexWrapper}>
       <h1>#Erik Anderson.</h1>
@@ -47,9 +47,9 @@ export default class Index extends React.Component {
       </div>
       <p>Creative Coder | Designer</p>
       <span>
-        <a href="http://github.com/phantomhaircuts/"><img src={githubLogo} className={indexStyle.indexLogo} alt="github"/></a>
-        <a href="https://www.instagram.com/flying__fortress/"><img src={instagramLogo} className={indexStyle.indexLogo} alt="instagram"/></a>
-        <a href="https://codepen.io/phantomhaircuts"><img src={codepenLogo} className={indexStyle.indexLogo} alt="codepen"/></a>
+      <a href="http://github.com/phantomhaircuts/"><img src={githubLogo} className={indexStyle.indexLogo} alt="github"/></a>
+      <a href="https://www.instagram.com/flying__fortress/"><img src={instagramLogo} className={indexStyle.indexLogo} alt="instagram"/></a>
+      <a href="https://codepen.io/phantomhaircuts"><img src={codepenLogo} className={indexStyle.indexLogo} alt="codepen"/></a>
       </span>
       <h2><a href="mailto: itserikanderson@gmail.com">Contact Me.</a></h2>
       </div>
