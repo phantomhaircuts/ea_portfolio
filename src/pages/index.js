@@ -1,11 +1,14 @@
 import React from "react"
+import { Link } from "gatsby"
+
 import Layout from "../components/layout"
+import indexStyle from "../styles/index.module.scss"
+import terminalStyle from "../styles/terminal.module.scss"
+
 import githubLogo from "../images/github.png"
 import instagramLogo from "../images/instagram.png"
 import codepenLogo from "../images/codepen.png"
 import linkedinLogo from "../images/linkedin.png"
-import indexStyle from "../styles/index.module.scss"
-import terminalStyle from "../styles/terminal.module.scss"
 
 export default class Index extends React.Component{
   constructor(props){
@@ -54,6 +57,7 @@ export default class Index extends React.Component{
       <a href="https://codepen.io/phantomhaircuts"><img src={codepenLogo} className={indexStyle.indexLogo} alt="codepen"/></a>
       </span>
       <h2><a href="mailto: itserikanderson@gmail.com">Contact Me.</a></h2>
+      <p><Link to="/about/" className={indexStyle.navLink}>More</Link></p>
       </div>
     )
   }
