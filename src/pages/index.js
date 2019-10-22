@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import githubLogo from "../images/github.png"
 import instagramLogo from "../images/instagram.png"
 import codepenLogo from "../images/codepen.png"
+import linkedinLogo from "../images/linkedin.png"
 import indexStyle from "../styles/index.module.scss"
 import terminalStyle from "../styles/terminal.module.scss"
 
@@ -47,6 +48,7 @@ export default class Index extends React.Component{
       </div>
       <p>Creative Coder | Designer</p>
       <span>
+      <a href="https://www.linkedin.com/in/itserikanderson/"><img src={linkedinLogo} className={indexStyle.indexLogo} alt="linkedin"/></a>
       <a href="http://github.com/phantomhaircuts/"><img src={githubLogo} className={indexStyle.indexLogo} alt="github"/></a>
       <a href="https://www.instagram.com/flying__fortress/"><img src={instagramLogo} className={indexStyle.indexLogo} alt="instagram"/></a>
       <a href="https://codepen.io/phantomhaircuts"><img src={codepenLogo} className={indexStyle.indexLogo} alt="codepen"/></a>
