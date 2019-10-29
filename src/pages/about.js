@@ -12,7 +12,7 @@ const AboutPage = () => (
       <br/>
       <p className={aboutStyle.entry}># <mark>Parsons School Of Design</mark> (2019)</p>
       <p className={aboutStyle.entry}># <mark>General Assembly</mark> (2015)</p>
-      <h3>Selected Projects</h3>
+      <h3>Selected Projects + Clients</h3>
       <p className={aboutStyle.entry}># <mark>Pepsi Co.</mark> Concept Videos/ Creative Direction / Writing / Editing (2019)</p>
       <p className={aboutStyle.entry}># <mark>Vagabond</mark> Custom CMS/ JS - Angular - Node / Development / Planning (2017)</p>
       <p><Link to="/" className={aboutStyle.navLink}>Less</Link></p>
